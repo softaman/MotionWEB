@@ -1,0 +1,221 @@
+body {
+    background: #fff;
+}
+
+#header {
+    width: 1518px;
+    position: fixed;
+    background: rgba(39, 5, 13, 0.33);
+    padding-top: 29px;
+
+}
+
+.items {
+    margin-top: -5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.heat {
+    margin: 0 30px;
+    text-decoration: none;
+    color: black;
+    animation: heat 2s ease-in-out alternate;
+}
+
+
+@keyframes heat {
+
+    0% {
+        opacity: 0;
+        margin-top: -50px;
+    }
+    100% {
+        opacity: 2;
+        margin-top: 0;
+
+    }
+}
+
+.caption {
+    margin-top: -14px;
+    animation: caption 2s ease-in-out alternate;
+}
+
+@keyframes caption {
+    0% {
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+    100% {
+        opacity: 2;
+        transform: translateX(0);
+
+    }
+}
+
+.a {
+    text-decoration: none;
+}
+
+.item {
+    margin: 0 32px;
+    color: black;
+}
+
+.dei {
+    display: flex;
+}
+
+#hero {
+
+}
+
+.hom {
+    margin-left: 82px;
+    padding-top: 153px;
+}
+
+.text {
+    margin-top: 30px;
+}
+
+.nou {
+    padding-top: 100px;
+    padding-left: 10px;
+}
+
+.img1 {
+    width: 513px;
+    height: 376px;
+    margin-top: 60px;
+    margin-left: 63px;
+}
+
+#elems {
+
+}
+
+
+.text-2 {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 52px
+}
+
+.fotci {
+    position: absolute;
+}
+
+.cartinca {
+
+    width: 557px;
+    padding-top: 69px;
+    margin: -6px 8px
+}
+
+.cartinca2{
+    width: 557px;
+    padding-top: 69px;
+    margin: -6px 25px;
+    height: 443px;
+}
+
+.cartinca3 {
+    width: 557px;
+    padding-top: 69px;
+    margin: 1px 8px;
+}
+
+.cartinca4 {
+    width: 541px;
+    padding-top: 69px;
+    margin: 1px 24px;
+    height: 443px;
+}
+
+.cartinca5 {
+    width: 557px;
+    padding-top: 69px;
+    margin: 1px 8px
+}
+
+.cartinca7 {
+    width: 945px;
+    padding-top: 66px;
+    padding-left: 231px;
+    height: 439px;
+}
+
+.in {
+
+    color: #4bff12;
+}
+
+#animate {
+
+}
+
+.bug {
+    width: 627px;
+    height: 349px;
+    margin-left: 295px;
+}
+
+.text-3 {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-top: 35px;
+}
+
+.rov {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px
+}
+
+
+#footer {
+    background: black;
+    height: 108px;
+}
+
+.hom-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding-top: 27px;
+}
+
+.text8 {
+    text-decoration: none;
+    color: white;
+
+}
+
+.text9 {
+    text-decoration: none;
+    color: white;
+    margin-top: 25px;
+    margin-left: -113px;
+
+}
+.fa-instagram{
+    font-size: 30px;
+    color: #fff;
+}
+.instagram{
+    color: white;
+    text-decoration: none;
+    margin-left: -10px;
+    margin-top: -30px;
+}
